@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnAccelerometer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Accelerometer Sonsor"
+        android:layout_margin="20dp"
+        android:textSize="20sp"
+        android:padding="10dp"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnProximity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Proximity Sonsor"
+        android:layout_margin="20dp"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:layout_below="@+id/btnAccelerometer"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnAmbientLight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ambient Light Sonsor"
+        android:layout_margin="20dp"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:layout_below="@+id/btnProximity"
+        />
+
+
+</RelativeLayout>
